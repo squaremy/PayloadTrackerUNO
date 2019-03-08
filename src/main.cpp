@@ -53,7 +53,7 @@ void loop()
     Serial.println(gps.location.lng(), 6);
     Serial.println("Speed MPH:");
     Serial.println(gps.speed.mph());
-    Serial.println("Altitude Feet:");
+    Serial.println("Altitude Meters:");
     Serial.println(gps.altitude.meters());
     Serial.println("");
     // compile and send location data
